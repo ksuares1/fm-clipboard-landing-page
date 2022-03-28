@@ -1,0 +1,20 @@
+
+
+/* body{
+    
+} */
+
+
+.hero-section{
+    background-image:url("../images/bg-header-desktop.png");
+}
+
+
+/* footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
