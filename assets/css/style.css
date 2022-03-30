@@ -1,25 +1,41 @@
 
-/* body{
+body{
+    height:100vh;
+    text-align: center;
     
-} */
-
-.hero-container, .snippets-container{
-    /* margin:auto; */
-   text-align: center;
 }
 
-
-.logo{
-    width:55px;
-
-}
 
 .hero-section{
-    background-image:url("../images/bg-header-desktop.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width:1400px;
+    height:50%;
+    background-image:url("../images/bg-header-mobile.png");
 }
+
+
+
+/* @media(min-width:375px){
+    .hero-section{
+        background-image:url("../images/bg-header-desktop.png");
+    }
+} */
+
+/* .hero-section{
+    height:100vh;
+} */
+
+.logo{
+    width:60px;
+}
+
+
+button{
+    border-radius: 5px
+}
+
+.snippets-container{
+    text-align: center;
+ }
 
 
 /* footer */
