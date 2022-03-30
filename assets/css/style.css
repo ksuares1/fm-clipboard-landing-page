@@ -38,6 +38,11 @@ button{
  }
 
 
+.comp-img{
+    display:flex;
+    flex-direction: column;
+    width:35%;
+}
 /* footer */
 .attribution { 
     font-size: 11px; 
