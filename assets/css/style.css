@@ -40,9 +40,22 @@ button{
 
 .comp-img{
     display:flex;
-    flex-direction: column;
-    width:35%;
+    flex-direction: row;
+     flex-wrap: wrap;
+    width:60%;
 }
+
+.comp-snippets{
+    display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/* .computer-container{
+    display:flex;
+    flex-direction: row; 
+} */
 /* footer */
 .attribution { 
     font-size: 11px; 
