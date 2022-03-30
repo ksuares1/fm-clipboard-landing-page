@@ -54,10 +54,10 @@ button{
   flex: 1;
 }
 
-/* .computer-container{
+.computer-container{
     display:flex;
-    flex-direction: row; 
-} */
+  justify-content: center;
+}
 /* footer */
 .attribution { 
     font-size: 11px; 
