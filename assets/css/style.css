@@ -1,17 +1,19 @@
 
 body{
-    height:100vh;
-    text-align: center;
+    text-align: center; 
     font-size: 18px;
     font-family: "Bai Jamjuree";
     
 }
 
 
-.hero-section{
+.hero-container{
+    height:45vh;
     max-width:1400px;
-    height:50%;
-    background-image:url("../images/bg-header-mobile.png");
+    background-image:url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
 }
 
 
@@ -24,10 +26,10 @@ body{
 
 /* .hero-section{
     height:100vh;
-} */
+/* } */
 
 .logo{
-    width:60px;
+    width:95px;
 }
 
 
@@ -35,10 +37,13 @@ button{
     border-radius: 5px
 }
 
-.snippets-container{
+.snippets-container , .history{
     text-align: center;
  }
 
+ .history{
+     padding: 2px;
+ }
 
 .comp-img{
     display:flex;
@@ -58,6 +63,13 @@ button{
     display:flex;
   justify-content: center;
 }
+
+/* p{
+    line-height: ;
+} */
+
+
+
 /* footer */
 .attribution { 
     font-size: 11px; 
