@@ -17,18 +17,18 @@ body{
 
 
 
+
 /* @media(min-width:375px){
     .hero-section{
         background-image:url("../images/bg-header-desktop.png");
     }
 } */
 
-/* .hero-section{
-    height:100vh;
-/* } */
+
 
 .logo{
-    width:95px;
+    height:50vh;
+    text-align: center;
 }
 
 
@@ -40,9 +40,9 @@ button{
     text-align: center;
  }
 
- .history{
+ /* .history{
      padding: 2px;
- }
+ } */
 
 .comp-img{
     display:flex;
