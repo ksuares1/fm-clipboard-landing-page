@@ -29,6 +29,8 @@ body{
 .logo{
     height:50vh;
     text-align: center;
+    padding-top:50px;
+    padding-bottom:20px;
 }
 
 
@@ -40,9 +42,7 @@ button{
     text-align: center;
  }
 
- /* .history{
-     padding: 2px;
- } */
+ 
 
 .comp-img{
     display:flex;
