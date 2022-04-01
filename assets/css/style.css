@@ -7,13 +7,15 @@ body{
 }
 
 
-.hero-container{
+header{
     height:45vh;
-    max-width:1439px;
+    /* max-width:1439px; */
     background-image:url("../images/bg-header-desktop.png");
-    background-repeat: no-repeat;
-    margin: 0 auto;
+    background-size: cover;
+    
 }
+
+
 
 
 
@@ -21,6 +23,7 @@ body{
 /* @media(min-width:375px){
     .hero-section{
         background-image:url("../images/bg-header-desktop.png");
+        /* background-repeat: no-repeat; */
     }
 } */
 
