@@ -9,11 +9,10 @@ body{
 
 .hero-container{
     height:45vh;
-    max-width:1400px;
+    max-width:1439px;
     background-image:url("../images/bg-header-desktop.png");
     background-repeat: no-repeat;
-    display:flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 
