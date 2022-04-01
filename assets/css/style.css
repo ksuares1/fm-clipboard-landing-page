@@ -8,24 +8,28 @@ body{
 
 
 header{
-    height:45vh;
-    /* max-width:1439px; */
+    
     background-image:url("../images/bg-header-desktop.png");
     background-size: cover;
-    
+    background-color:#F2F2F2;
+    mix-blend-mode: normal;
+    /* opacity: 0.2;
+     */
 }
 
 
 
-
+.history, button{
+    background-color: white;
+}
 
 
 /* @media(min-width:375px){
     .hero-section{
         background-image:url("../images/bg-header-desktop.png");
         /* background-repeat: no-repeat; */
-    }
-} */
+    /* }
+}  */
 
 
 
