@@ -85,11 +85,20 @@ button{
   justify-content: center;
 }
 
-/* p{
-    line-height: ;
-} */
+.access-clipboard{
+    margin: 5.5em; 
+}
 
+.mobile-devices{
+    width: 812px;
+    height: 475px;
+    left: 314px;
+    top: 1890px;
+}
 
+.workflow{
+    margin:6%;
+}
 
 /* footer */
 .attribution { 
