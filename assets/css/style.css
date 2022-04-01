@@ -1,8 +1,14 @@
-
+:root{
+    --primary-color: hsl(171, 66%, 44%);
+    --secondary-color: hsl(233, 100%, 69%);
+    --heading-color: hsl(210, 10%, 33%);
+    --paragraph-color: hsl(201, 11%, 66%);
+    --font-family:"Bai Jamjuree";
+}
 body{
     text-align: center; 
     font-size: 18px;
-    font-family: "Bai Jamjuree" , sans-serif;
+    font-family:var(--font-family);
     
 }
 
@@ -10,19 +16,28 @@ body{
 header{
     
     background-image:url("../images/bg-header-desktop.png");
-    background-size: cover;
+    background-size: cover; 
+  
+}
+
+h1{
+    color:var(--heading-color);
+}
+
+p{
+    color:var(--paragraph-color);
+}
+
+.history{
+    opacity: 0.25;
     background-color:#F2F2F2;
     mix-blend-mode: normal;
-    /* opacity: 0.2;
-     */
+    
 }
 
-
-
-.history, button{
-    background-color: white;
-}
-
+/* button{
+    background-color: ;
+} */
 
 /* @media(min-width:375px){
     .hero-section{
@@ -45,8 +60,8 @@ button{
     border-radius: 5px
 }
 
-.snippets-container , .history{
-    text-align: center;
+.snippets-container{
+    margin: 10%;
  }
 
  
