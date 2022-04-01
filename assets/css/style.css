@@ -17,7 +17,6 @@ header{
     
     background-image:url("../images/bg-header-desktop.png");
     background-size: cover; 
-  
 }
 
 h1{
@@ -27,18 +26,24 @@ h1{
 p{
     color:var(--paragraph-color);
 }
+/* 
 
+ /* gradient color */
 .history{
     opacity: 0.25;
-    background-color:#F2F2F2;
     mix-blend-mode: normal;
-    
-}
-
-/* button{
-    background-color: ;
+   
 } */
 
+.button-ios{
+    background-color: var(--primary-color);
+    color:white; 
+}
+
+.button-mac{
+    background-color: var(--secondary-color);
+    color:white;
+}
 /* @media(min-width:375px){
     .hero-section{
         background-image:url("../images/bg-header-desktop.png");
@@ -98,6 +103,15 @@ button{
 
 .workflow{
     margin:6%;
+}
+
+.mac{
+    margin: 5%;
+}
+
+.feature-container{
+    display:flex;
+    flex-direction: row;
 }
 
 /* footer */
