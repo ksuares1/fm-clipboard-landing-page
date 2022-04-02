@@ -77,19 +77,30 @@ button:hover{
 
 
 .snippets-container{
-    margin: 5%; 
     padding:75px 0; 
  }
 
- 
- 
+ .snippets-container > p{
+     margin-bottom: 75px;
+ }
 
-.comp-img{
- width: 750px;  
-height: 620px;
-left: -42px;
-top: 934px;
+
+.computer-container{
+  display: flex; 
 }
+
+.computer-container .comp-img{
+    width:50%;
+    overflow: hidden;
+}
+
+.computer-container .comp-img img{
+    display: block;
+    width: 105%;  
+    height:auto;
+   transform:translateX(-5%);
+   }
+
 
 .comp-snippets{
     display: flex;
@@ -101,15 +112,7 @@ top: 934px;
     
 }
 
-.computer-container{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    width: 1212px;
-    height: 572px;
-    left: -32px;
-    top: 934px;
-}
+
 
 .access-clipboard{
     margin: 10%; 
