@@ -25,16 +25,15 @@ h1{
   
 }
 
-p{
+ .history-para{
     color:var(--paragraph-color);
+    margin-bottom:50px !important;
+    line-height:1.5;
 }
 /* 
 
  /* gradient color */
-/* .history{
-    opacity: 0.25;
-    mix-blend-mode: normal;
-}  */
+
 
 button{
     border-radius: 10em;
@@ -56,6 +55,8 @@ button{
 
 button:hover{
     cursor: pointer;
+    opacity:0.9;
+   
 }
 /* @media(min-width:375px){
     .hero-section{
@@ -76,9 +77,11 @@ button:hover{
 
 
 .snippets-container{
-    margin: 10%;
+    margin: 5%; 
+    padding:75px 0; 
  }
 
+ 
  
 
 .comp-img{
@@ -130,6 +133,10 @@ top: 934px;
 .feature-container{
     display:flex;
     flex-direction: row;
+}
+
+li{
+    list-style: none;
 }
 
 /* footer */
