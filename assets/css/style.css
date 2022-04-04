@@ -102,6 +102,11 @@ button:hover{
    }
 
 
+   .computer-container .comp-snippets{
+       width:50%;
+       padding:70px 110px;
+   }
+
 .comp-snippets{
     display: flex;
     flex-direction: column;
