@@ -107,6 +107,11 @@ button:hover{
        padding:70px 110px;
    }
 
+   .computer-container.comp-snippets .sync .quick-search p{
+       margin-bottom: 55px;
+       max-width: 350px;
+       line-height:2;
+   }
 .comp-snippets{
     display: flex;
     flex-direction: column;
@@ -131,14 +136,15 @@ button:hover{
 }
 
 .workflow{
-    margin:6%;
+    margin:auto;
+    padding: 6%;
 }
 
 .mac{
     margin: 10%;
 }
-
-.feature-container{
+ 
+.card-group{
     display:flex;
     flex-direction: row;
 }
