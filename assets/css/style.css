@@ -154,6 +154,11 @@ button:hover{
     padding: 2.5em;
 }
 
+.clients{
+    display:flex;
+    flex-direction: row;
+}
+
 li{
     list-style: none;
 }
