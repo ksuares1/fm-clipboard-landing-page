@@ -149,6 +149,11 @@ button:hover{
     flex-direction: row;
 }
 
+.features-banner{
+    margin:8%;
+    padding: 2.5em;
+}
+
 li{
     list-style: none;
 }
