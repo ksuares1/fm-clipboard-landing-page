@@ -157,6 +157,7 @@ button:hover{
 .clients{
     display:flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 li{
