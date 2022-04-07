@@ -160,7 +160,7 @@ button:hover{
         width:1000px;
 }
 
-.google, .ibm , .microsoft , .hp {
+.google, .ibm , .microsoft , .hp , .vector-img{
     display: flex;
     flex-direction: row;
     margin:25px;
