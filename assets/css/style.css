@@ -168,6 +168,15 @@ button:hover{
     width:25%;   
 }
 
+.clipboard{
+    margin:10%;
+}
+
+.footer-banner{
+    background-color: var(--paragraph-color);
+    display:flex;
+    flex-direction: row;
+}
 
 li{
     list-style: none;
